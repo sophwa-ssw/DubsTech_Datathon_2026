@@ -1,7 +1,7 @@
 # DubsTech_Datathon_2026
 By: Sophie Wang and Hiya Mehta
 
-## Presentation: https://www.canva.com/design/DAHAveAu-_s/pPxhVsGPUkCjREdWsPdkNg/view?utm_content=DAHAveAu-_s&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h587d237d6d
+## [Presentation: Canva](https://www.canva.com/design/DAHAveAu-_s/pPxhVsGPUkCjREdWsPdkNg/view?utm_content=DAHAveAu-_s&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h587d237d6d)
 
 ## Datasets used:
 - Provided 2025 AQI by County dataset
@@ -12,10 +12,12 @@ By: Sophie Wang and Hiya Mehta
 
 ## [Predict the future Max AQI for a county](Predict_Future_Max_AQI.ipynb)
 - Uses historical data aggregated from yearly summaries by the EPA and linear regression to predict a Max AQI value for a given County, State in a given Year
+- RMSE of 196.15243292553586
 - Data cleaning and set up performed in [Test_Notebook.ipynb](Test_Notebook.ipynb)
 
 ## [Predict the counties with the highest Max AQI in 2027](Predicted_Highest_Max_AQI_Counties.ipynbipynb)
 - Uses historical data aggregated from yearly summaries by the EPA and linear regression to predict Max AQI values for all counties in the dataset in 2027
+- RMSE of 196.15243292553586
 - Data cleaning and set up performed in [Test_Notebook.ipynb](Test_Notebook.ipynb)
 
 ## [Clustering of counties based on historical air quality patterns](Historical_Air_Quality_Model.ipynb)
